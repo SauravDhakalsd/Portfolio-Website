@@ -34,8 +34,9 @@
       <!---------- HEADER START ---------->
       <header class="header">
         <div class="container">
+
           <div class="row flex-end">
-            <button type="button" class="nav-toggler">
+            <button type="button" class="card nav-toggler">
               <span></span>
             </button>
             <nav class="nav">
@@ -60,7 +61,7 @@
       <!---------- HEADER END ---------->
 
       <!---------- HOME SECTION START ---------->
-      <section class="home-section align-items-center" id="home">
+      <section class="card home-section align-items-center" id="home">
         <div class="container">
           <div class="row align-items-center">
             <div class="home-text">
@@ -79,6 +80,7 @@
             </div>
           </div>
         </div>
+        <p class="copyright">Copyright 2022 Saurav Dhakal. All Right Reserved.</p>
       </section>
       <!---------- HOME SECTION END ---------->
 
@@ -508,5 +510,14 @@ interactive user interface.
     <!----- PORTFOLIO ITEM DETAILS POPUP END ----->
 
     <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1
+      });
+    </script>
   </body>
 </html>
