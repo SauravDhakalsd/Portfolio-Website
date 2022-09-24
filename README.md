@@ -1,10 +1,3 @@
-- 👋 Hi, I’m @WD-Merazul
-- 👀 I’m interested in Web Developer.
-- 🌱 I’m currently learning Programme Language.
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+background-image: linear-gradient( 109.6deg, rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
 
-<!---
-WD-Merazul/WD-Merazul is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Toxic: #BFF098 → #6FD6FF
